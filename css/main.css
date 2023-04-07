@@ -16,62 +16,42 @@
   }
 
   html {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
     background-color: #000;
   }
-
-  body {
-  
-    background-color: #000;
-  }
-
-
-    
-  h1 {
-    font-size: 2.5rem;
-}
-
-
-  
-
 
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin-left: 122px;
+    margin-top: 10px;
+
+
     padding: 0;
-    /* gap 662px; */
+    gap: 650px;
     background-color: var(--black-color);
     color: var(--white-color);
     width: 1197px;
     height: 60px;
-    border: 1px solid #fff;
   }
   
   .logo {
     font-size: 24px;
     font-weight: bold;
+
   }
   
   .menu {
     display: flex;
-    justify-content: flex-end;
+    width: 449px;
+    justify-content: space-between;
   }
   
   .menu li {
     list-style: none;
-    margin-left: 20px;
   }
   
-  .menu li:first-child {
-    margin-left: 0;
-  }
-  
+ 
   .menu a {
     text-decoration: none;
     color: var(--white-color);
@@ -79,106 +59,86 @@
     font-weight: bold;
   }
 
+main {
+  margin: 120px 121px 120px 122px;
+}
 .hero {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    width: 1197px;
+    min-width: 1197px;
     height: 590px;
+    gap: 15px;
 }
 
 
 .desk {
+  flex-basis: 50%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
   padding: 0px;
-
-  width: 591px;
   height: 590px;
+  /* border: 1px solid #fff; */
 }
 
 .desk h1 {
-  /* width: 591px; */
-  height: 120px;
+  max-width: 100%;
+  
   font-weight: 700;
   font-size: 50px;
   line-height: 120%;
   color: var(--primary-color);
 }
+
 .desk h3 {
-  /* width: 446px; */
-  height: 60px;
-
+  
   color: var(--accent-color);
-
 }  
-.hero p{
-  /* width: 591px; */
-height: 252px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 180%;
-color: #E6E6E6;
+.desk p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 180%;
+  color: #E6E6E6;
 }
 
 .image {
   display: flex;
-  width: 591px;
+  flex-basis: 50%;
   height: 590px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 25px;
+/* border: 1px solid #fff; */
+} 
 
-}
   
-.row {
+.pic-column {
+  flex-basis: 33%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  gap: 12px;
 }
 
 .pic {
-  width: 187px;
-   
+/* აქ სურათები ჯერ ბეგრაუნდში დავსვი, მერე შევცვალე, მარა ფონის ფერი დავტოვე */
   background-color: var(--secondary-color);
   border-radius: 10px;
 }
-.pic01 {
-  height: 200px;
-}
 
-.pic02 {
-  height: 257px;
-  margin: 15px;
-}
-
-.pic03 {
-  height: 83px;
-  margin: 15px 12px;
-}
-.pic04 {
-  height: 148px;
-  margin: 15px 12px;
-}
-
-.pic05 {
-  height: 251px;
-}
-
-.pic06 {
-  height: 144px;
-}
-
-.pic07 {
-  height: 501px;
-}
+/* აქ მარტო ამ სურათების სიმაღლეები მჭირდება */
+.pic01 {height: 200px;}
+.pic02 {height: 257px;}
+.pic03 {height: 83px;}
+.pic04 {height: 148px;}
+.pic05 {height: 251px;}
+.pic06 {height: 144px;}
+.pic07 {height: 501px;}
 
