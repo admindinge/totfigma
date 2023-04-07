@@ -1,18 +1,11 @@
 
 :root {
-    --primary-color: #FFFFFF;
-    --secondary-color: #6c757d;
+    --primary-color: #E6E6E6;
+    --secondary-color: #0B6E4F;
     --accent-color: #FFB100;
-    --success-color: #28a745;
-    --info-color: #17a2b8;
-    --warning-color: #ffc107;
-    --danger-color: #dc3545;
-    --light-color: #f8f9fa;
-    --dark-color: #343a40;
+
     --white-color: #fff;
     --black-color: #000;
-    --gray-color: #6c757d;
-    --gray-dark-color: #343a40;
 }
 
 
@@ -23,100 +16,67 @@
   }
 
   html {
-    font-family: sans-serif;
-    background-color: #fff;
-  }
-
-  body {
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-  }
-
-h3, h4, h5, h6 {
-    font-family: 'BPG Nino Mtavruli', sans-serif;
-    font-weight: bold;
-    margin: 1rem 0;
-    color: var(--primary-color);
-  }  
-  h1, h2 {
-    font-family: 'BPG LE Studio 02 Caps', sans-serif;
-    font-weight: bold;
-    margin: 1rem 0;
-    color: var(--primary-color);
-  }
-    
-  h1 {
-    font-size: 2.5rem;
-}
-
-  a {
-    color: var(--primary-color);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: var(--secondary-color);
-    text-decoration: underline;
-  }
-  
-  p {
-    font-family: "BPG LE Studio 02", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin: 1rem 0;
-    color: var(--secondary-color);
-  }
-
-  header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    gap: 662px;
-
-  position: absolute;
-  width: 1197px;
-  height: 60px;
-  left: 122px;
-  top: 10px;
-
-  }
-
-  .logo {
-    width: 98px;
-    height: 60px;
-    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
-    /* identical to box height */
+    background-color: #000;
+  }
+
+  body {
+  
+    background-color: #000;
+  }
+
+
     
+  h1 {
+    font-size: 2.5rem;
+}
+
+
+  
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
-    color: var(--primary-color);
-  } 
+    padding: 0;
+    gap 662px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    width: 1197px;
+    height: 60px;
+    border: 1px solid #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
   
   .menu {
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px;
-gap: 50px;
-
-width: 449px;
-height: 50px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+    justify-content: flex-end;
+  }
+  
+  .menu li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  .menu li:first-child {
+    margin-left: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: bold;
   }
 
   .hero {
@@ -127,75 +87,38 @@ flex-grow: 0;
   padding: 0px;
   gap: 15px;
 
-position: absolute;
+
 width: 1197px;
 height: 590px;
-left: 122px;
-top: 190px;
+
 
   }
 
 
-  .desk {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 25px;
+.desk {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+  width: 591px;
+  height: 590px;
+}
 
-width: 591px;
-height: 590px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-  }
 .desk h1 {
   width: 591px;
-height: 120px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 120%;
-/* or 60px */
-
-
-color: var(--primary-color);
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+  height: 120px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: var(--primary-color);
 }
 .desk h3 {
   width: 446px;
-height: 60px;
+  height: 60px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 60px;
-/* identical to box height */
+  color: var(--accent-color);
 
-
-/* yellow */
-
-color: var(--accent-color);
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
 }  
 .hero p{
   width: 591px;
@@ -206,99 +129,61 @@ font-style: normal;
 font-weight: 300;
 font-size: 20px;
 line-height: 180%;
-/* or 36px */
-
-
 color: #E6E6E6;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
 }
+
 .image {
+  display: flex;
   width: 591px;
   height: 590px;
-/* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
 }
   
-.pic01 {
-  position: absolute;
-width: 187px;
-height: 200px;
-left: 606px;
-top: 0px;
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
 
-background: url(.jpg), var(--secondary-color);
-border-radius: 10px;
+.pic {
+  width: 187px;
+   
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+.pic01 {
+  height: 200px;
 }
 
 .pic02 {
-  position: absolute;
-width: 187px;
-height: 257px;
-left: 606px;
-top: 225px;
-
-background: url(.jpg), var(--secondary-color);
-border-radius: 10px;
+  height: 257px;
+  margin: 15px 12px;
 }
 
 .pic03 {
-  position: absolute;
-width: 187px;
-height: 83px;
-left: 606px;
-top: 507px;
-
-background: url(.jpg), var(--secondary-color);
-border-radius: 10px;
+  height: 83px;
+  margin: 15px 12px;
 }
 .pic04 {
-position: absolute;
-width: 187px;
-height: 148px;
-left: 808px;
-top: 0px;
-
-background: url(.jpg), var(--secondary-color);
-border-radius: 10px;
+  height: 148px;
+  margin: 15px 12px;
 }
 
 .pic05 {
-  position: absolute;
-width: 187px;
-height: 251px;
-left: 808px;
-top: 171px;
-
-background: url(.jpg), var(--secondary-color);
-border-radius: 10px;
+  height: 251px;
 }
 
 .pic06 {
-  position: absolute;
-  width: 187px;
-height: 144px;
-left: 808px;
-top: 446px;
-
-background: url(.jpg), var(--secondary-color);
-border-radius: 10px;
+  height: 144px;
 }
 
 .pic07 {
-  position: absolute;
-  width: 187px;
   height: 501px;
-  left: 1010px;
-  top: 31px;
-
-  background: url(.jpg), var(--secondary-color);
-  border-radius: 10px;
 }
+
