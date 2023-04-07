@@ -79,20 +79,15 @@
     font-weight: bold;
   }
 
-  .hero {
+.hero {
     display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px;
-  gap: 15px;
-
-
-width: 1197px;
-height: 590px;
-
-
-  }
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 1197px;
+    height: 590px;
+}
 
 
 .desk {
@@ -100,13 +95,13 @@ height: 590px;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 25px;
+
   width: 591px;
   height: 590px;
 }
 
 .desk h1 {
-  width: 591px;
+  /* width: 591px; */
   height: 120px;
   font-weight: 700;
   font-size: 50px;
@@ -114,14 +109,14 @@ height: 590px;
   color: var(--primary-color);
 }
 .desk h3 {
-  width: 446px;
+  /* width: 446px; */
   height: 60px;
 
   color: var(--accent-color);
 
 }  
 .hero p{
-  width: 591px;
+  /* width: 591px; */
 height: 252px;
 
 font-family: 'Poppins';
