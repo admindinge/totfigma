@@ -1,8 +1,8 @@
 
 :root {
-    --primary-color: #007bff;
+    --primary-color: #FFFFFF;
     --secondary-color: #6c757d;
-    --accent-color: #ffc107;
+    --accent-color: #FFB100;
     --success-color: #28a745;
     --info-color: #17a2b8;
     --warning-color: #ffc107;
@@ -31,7 +31,7 @@
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #000;
   }
 
 h3, h4, h5, h6 {
@@ -68,3 +68,163 @@ h3, h4, h5, h6 {
     margin: 1rem 0;
     color: var(--secondary-color);
   }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 662px;
+
+  position: absolute;
+  width: 1197px;
+  height: 60px;
+  left: 122px;
+  top: 10px;
+
+  }
+
+  .logo {
+    width: 98px;
+    height: 60px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    
+    color: var(--primary-color);
+  } 
+  
+  .menu {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 50px;
+
+width: 449px;
+height: 50px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+  .hero {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+
+position: absolute;
+width: 1197px;
+height: 590px;
+left: 122px;
+top: 190px;
+
+  }
+
+
+  .desk {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 25px;
+
+width: 591px;
+height: 590px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+.desk h1 {
+  width: 591px;
+height: 120px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+/* or 60px */
+
+
+color: var(--primary-color);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.desk h3 {
+  width: 446px;
+height: 60px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+
+/* yellow */
+
+color: var(--accent-color);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}  
+.hero p{
+  width: 591px;
+height: 252px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 180%;
+/* or 36px */
+
+
+color: #E6E6E6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.image {
+  width: 591px;
+  height: 590px;
+/* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+  
+
