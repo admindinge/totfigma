@@ -234,7 +234,7 @@ height: 200px;
 left: 606px;
 top: 0px;
 
-background: url(.jpg), #C4C4C4;
+background: url(.jpg), var(--secondary-color);
 border-radius: 10px;
 }
 
@@ -245,7 +245,7 @@ height: 257px;
 left: 606px;
 top: 225px;
 
-background: url(.jpg), #C4C4C4;
+background: url(.jpg), var(--secondary-color);
 border-radius: 10px;
 }
 
@@ -256,7 +256,7 @@ height: 83px;
 left: 606px;
 top: 507px;
 
-background: url(.jpg), #C4C4C4;
+background: url(.jpg), var(--secondary-color);
 border-radius: 10px;
 }
 .pic04 {
@@ -266,7 +266,7 @@ height: 148px;
 left: 808px;
 top: 0px;
 
-background: url(.jpg), #C4C4C4;
+background: url(.jpg), var(--secondary-color);
 border-radius: 10px;
 }
 
@@ -277,7 +277,7 @@ height: 251px;
 left: 808px;
 top: 171px;
 
-background: url(.jpg), #C4C4C4;
+background: url(.jpg), var(--secondary-color);
 border-radius: 10px;
 }
 
@@ -288,17 +288,17 @@ height: 144px;
 left: 808px;
 top: 446px;
 
-background: url(.jpg), #C4C4C4;
+background: url(.jpg), var(--secondary-color);
 border-radius: 10px;
 }
 
 .pic07 {
   position: absolute;
   width: 187px;
-height: 501px;
-left: 1010px;
-top: 31px;
+  height: 501px;
+  left: 1010px;
+  top: 31px;
 
-background: url(), #C4C4C4;
-border-radius: 10px;
+  background: url(.jpg), var(--secondary-color);
+  border-radius: 10px;
 }
