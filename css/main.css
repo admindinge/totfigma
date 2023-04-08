@@ -100,23 +100,9 @@ main {
   color: var(--primary-color);    
 }
 
-.contact {
-  width: 514px;
-  margin-top: 25px;
-}
-.social-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-  padding: 0px;
-  width: 100%;
-}
 .download {
   width: 166px;
-margin-top: 25px;
-
-
+  margin-top: 25px;
 }
 
 .download a {
@@ -130,6 +116,19 @@ margin-top: 25px;
 .download a img { 
   margin-right: 10px;
 }
+.contact {
+  width: 514px;
+  margin-top: 25px;
+}
+.social-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 0px;
+  width: 100%;
+}
+
 
 .image {
   display: flex;
