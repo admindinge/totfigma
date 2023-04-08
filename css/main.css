@@ -17,6 +17,7 @@
 
   html {
     background-color: #000;
+    font-family: 'Poppins', sans-serif;
   }
 
   .navbar {
@@ -36,8 +37,8 @@
   }
   
   .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font: normal 700 40px/60px 'Poppins';
+
 
   }
   
@@ -55,8 +56,7 @@
   .menu a {
     text-decoration: none;
     color: var(--white-color);
-    font-size: 16px;
-    font-weight: bold;
+    font: normal 700 20px/30px 'Poppins';
   }
 
 main {
@@ -80,30 +80,55 @@ main {
   justify-content: center;
   padding: 0px;
   height: 590px;
-  /* border: 1px solid #fff; */
 }
 
 .desk h1 {
   max-width: 100%;
-  
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 120%;
+  font: normal 700 50px/120% 'Poppins';
   color: var(--primary-color);
 }
 
 .desk h3 {
   
   color: var(--accent-color);
+  font: normal 700 40px/60px 'Poppins';
+
 }  
 
 .desk p{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 180%;
-  color: #E6E6E6;
+  font: normal 300 20px/180% 'Poppins';
+  color: var(--primary-color);    
+}
+
+.contact {
+  width: 514px;
+  margin-top: 25px;
+}
+.social-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 0px;
+  width: 100%;
+}
+.download {
+  width: 166px;
+margin-top: 25px;
+
+
+}
+
+.download a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font: normal 400 20px/120% 'Poppins';
+  color: var(--primary-color);
+}
+
+.download a img { 
+  margin-right: 10px;
 }
 
 .image {
@@ -114,7 +139,6 @@ main {
   justify-content: center;
   align-items: center;
   gap: 25px;
-/* border: 1px solid #fff; */
 } 
 
   
